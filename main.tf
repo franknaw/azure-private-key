@@ -1,5 +1,5 @@
 
-esource "random_string" "random" {
+resource "random_string" "random" {
   length  = 12
   upper   = false
   special = false
