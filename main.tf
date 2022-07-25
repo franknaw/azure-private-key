@@ -1,10 +1,4 @@
 
-//resource "random_string" "random" {
-//  length  = 12
-//  upper   = false
-//  special = false
-//}
-
 resource "tls_private_key" "ssh_keys" {
   for_each  = var.hosts
   algorithm = "RSA"
