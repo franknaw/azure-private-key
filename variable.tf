@@ -1,4 +1,4 @@
 variable "hosts" {
-  description = "List of hosts for generating PEM files"
-  type        = list(string)
+  description = "Set of hosts to generate PEM files"
+  type        = set(string)
 }
